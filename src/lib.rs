@@ -4,6 +4,8 @@
 
 include!("../bindings.rs");
 
+use std::ffi::CString;
+
 pub fn connect_lj_u6() ->i32{
     let address_c_string = CString::new("1").unwrap();
     let mut handle :i32 = 0;
