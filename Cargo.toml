@@ -8,5 +8,11 @@ authors = ["Callum Welsh <callumwelsh@princeton.edu>"]
 license = "MIT"
 version = "0.1.0"
 edition = "2021"
+description = "Rust Bindings for the LabJack UD Library"
+documentation = ""
+repository = "https://github.com/Callum-Welsh/labjack_ud_rs/"
+
+
+
 
 [dependencies]
